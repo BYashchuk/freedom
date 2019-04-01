@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My account</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="css/myacc.css">
+    <link rel="stylesheet" href="css/mscreen.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <menu>
+                <nav class="navbar navbar-inverse">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="./index.html">
+                                <img src="./img/logoo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav center-menu-li">
+                                <li><a href="./index.html">Главная</a></li>
+                                <li><a href="./services.html">Услуги</a></li>
+                                <li><a href="./faq.html">FAQ</a></li>
+                                <li><a href="./news.html">Новости</a></li>
+                                <li><a href="./contacts.html">Контакты</a></li>
+                                <span class="scgo">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false" style="line-height: 3.7;
+    color: #fff;">Мой Кабинет <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">
+                                                <span class="money-acc">Аккаунт:</span><br>
+                                                <span class="text-acc">Name</span></a></li>
+                                        <li><a href="#"><span class="text-acc">Total value:</span><br>
+                                                <span class="money-acc">$78.262</span></a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#"><span class="text-acc"><b>Logout</b></span></a></li>
+                                    </ul>
+                                </span>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <div class="dropdown js-dropdown js-lang" data-dropdown-type="closing"
+                                    style="line-height: 3.7;">
+                                    <button class="dropdown__button js-dropdown-toggler js-lang-display">Ru</button>
+                                    <div class="dropdown__box js-dropdown-box">
+                                        <ul>
+                                            <li><a href="#En" class="js-lang-toggler">english</a></li>
+                                            <li><a href="#Ru" class="js-lang-toggler">russian</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </menu>
+
+            <div class="container">
+                <section class="myacc-one">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="text-head-acc">
+                                <div class="hed-line-text">
+                                    20:30:18
+                                </div>
+                                <div class="hed-line-text">
+                                    support@asiacoinmarket.me
+                                </div>
+                                <div class="hed-line-text">
+                                    asiacoinmarket@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 for-fleax">
+                            <div class="row">
+                                <div class="hidden-lg hidden-md col-sm-4 hidden-xs"></div>
+
+                                <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                                    <a href="./myaccount.html">
+                                        <div class="btn-tab activer">Кабинет</div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+                                    <div style="position: relative ">
+                                        <div class="abs-btn-taba hidden-xs">
+                                            <a href="./myaccount.html">
+                                                <div class="btn-tab activer">Кабинет</div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <a href="#Deposito">
+                                        <div class="btn-tab deposito" onclick="openCity(event, 'Deposito')">Депозиты
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+                                    <a href="#Transact">
+                                        <div class="btn-tab transact" onclick="openCity(event, 'Transact')">Транзакции
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+                                    <a href="#Rekviz">
+                                        <div class="btn-tab rekviz" onclick="openCity(event, 'Rekviz')">Реквизиты</div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+                                    <a href="#Mass">
+                                        <div class="btn-tab mass" onclick="openCity(event, 'Mass')">Сообщения</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="myacc-two">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 outline-r">
+                            <div class="cent-div">
+                                <img src="./img/user.png" alt="user" class="user-img">
+
+                                <div class="user-name">
+                                    UserNameInvestor
+                                </div>
+                                <div class="user-money">
+                                    $ 17 143, 32 USD
+                                </div>
+                                <div class="user-ip">
+                                    IP: 195.177.72.101
+                                </div>
+
+                                <div class="user-last-time">
+                                    Last login Time: 2018-05-06 13:23:03
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                            <div id="Deposito" class="tabcontent">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table class="table">
+                                            <tr class="table-header">
+                                                <th class="cell">Плат. система</th>
+                                                <th class="cell">Рефские</th>
+                                                <th class="cell">Введено</th>
+                                                <th class="cell">На Депозитах</th>
+                                                <th class="cell">Начислено</th>
+                                                <th class="cell">Выведено</th>
+                                            </tr>
+                                            <tr class="active">
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>AdvancedCash (USD)</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>16 753.00</td>
+                                                <td>11 357.00</td>
+                                                <td>5 357.00</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="Transact" class="tabcontent">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table class="table">
+                                            <tr class="table-header">
+                                                <th class="cell">История транзакций</th>
+                                                <th class="cell">Валюта</th>
+                                                <th class="cell">Сумма</th>
+                                                <th class="cell">Дата</th>
+                                                <th class="cell">Время</th>
+                                            </tr>
+                                            <tr class="active">
+                                                <td class="td-flex"><span><img src="./img/upparr.png"
+                                                            alt="upparr"></span><span>Пополнение</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-flex"><span><img src="./img/downarr.png"
+                                                            alt="downarr"></span><span>Вывод</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td class="td-flex"><span><img src="./img/upparr.png"
+                                                            alt="upparr"></span><span>Пополнение</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-flex"><span><img src="./img/downarr.png"
+                                                            alt="downarr"></span><span>Вывод</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td class="td-flex"><span><img src="./img/upparr.png"
+                                                            alt="upparr"></span><span>Пополнение</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-flex"><span><img src="./img/downarr.png"
+                                                            alt="downarr"></span><span>Вывод</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td class="td-flex"><span><img src="./img/upparr.png"
+                                                            alt="upparr"></span><span>Пополнение</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-flex"><span><img src="./img/downarr.png"
+                                                            alt="downarr"></span><span>Вывод</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td class="td-flex"><span><img src="./img/upparr.png"
+                                                            alt="upparr"></span><span>Пополнение</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-flex"><span><img src="./img/downarr.png"
+                                                            alt="downarr"></span><span>Вывод</span>
+                                                </td>
+                                                <td>USD</td>
+                                                <td>$ 16 753.00</td>
+                                                <td>26.08.2018</td>
+                                                <td>16:53:27</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="Rekviz" class="tabcontent">
+                                <div class="col-md-12">
+                                    <table class="table">
+                                        <tr class="table-header">
+                                            <th class="cell">Реквизиты</th>
+                                            <th class="cell">Введите данные</th>
+                                            <th class="cell tt-c">Пример</th>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>- PRIVATBANK -</td>
+                                            <td><input type="text" class="input-table" placeholder="account number">
+                                            </td>
+                                            <td class="tt-c"> [sample@domain.zn]</td>
+                                        </tr>
+                                        <tr>
+                                            <td>- PRIVATBANK -</td>
+                                            <td><input type="text" class="input-table" placeholder="account number">
+                                            </td>
+                                            <td class="tt-c"> [sample@domain.zn]</td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>- PRIVATBANK -</td>
+                                            <td><input type="text" class="input-table" placeholder="account number">
+                                            </td>
+                                            <td class="tt-c"> [sample@domain.zn]</td>
+                                        </tr>
+                                        <tr>
+                                            <td>- PRIVATBANK -</td>
+                                            <td><input type="text" class="input-table" placeholder="account number">
+                                            </td>
+                                            <td class="tt-c"> [sample@domain.zn]</td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>- PRIVATBANK -</td>
+                                            <td><input type="text" class="input-table" placeholder="account number">
+                                            </td>
+                                            <td class="tt-c"> [sample@domain.zn]</td>
+                                        </tr>
+                                        <tr>
+                                            <td>- PRIVATBANK -</td>
+                                            <td><input type="text" class="input-table" placeholder="account number">
+                                            </td>
+                                            <td class="tt-c"> [sample@domain.zn]</td>
+                                        </tr>
+                                    </table>
+
+                                    <div class="rewrite flex-div">
+                                        <label class="label--checkbox ">
+                                            <input type="checkbox" class="checkbox">
+                                            <span class="mst">Все данные введенные мною верны</span>
+                                        </label>
+                                        <div class="b-sav">СОХРАНИТЬ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="Mass" class="tabcontent">
+                                <div class="col-md-12">
+                                    <table class="table">
+                                        <tr class="table-header">
+                                            <th class="cell">Входящие</th>
+                                            <th class="cell">Тема</th>
+                                            <th class="cell tt-c">Тема</th>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>FreedommindSupport</td>
+                                            <td>We are updating our systems...</td>
+                                            <td class="td-flex"><span>02.12.2018</span><span> 17:52:04</span>
+                                                <label class="label--checkbox ">
+                                                    <input type="checkbox" class="checkbox">
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>FreedommindSupport</td>
+                                            <td>We are updating our systems...</td>
+                                            <td class="td-flex"><span>02.12.2018</span><span> 17:52:04</span>
+                                                <label class="label--checkbox ">
+                                                    <input type="checkbox" class="checkbox">
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>FreedommindSupport</td>
+                                            <td>We are updating our systems...</td>
+                                            <td class="td-flex"><span>02.12.2018</span><span> 17:52:04</span>
+                                                <label class="label--checkbox ">
+                                                    <input type="checkbox" class="checkbox">
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>FreedommindSupport</td>
+                                            <td>We are updating our systems...</td>
+                                            <td class="td-flex"><span>02.12.2018</span><span> 17:52:04</span>
+                                                <label class="label--checkbox ">
+                                                    <input type="checkbox" class="checkbox">
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>FreedommindSupport</td>
+                                            <td>We are updating our systems...</td>
+                                            <td class="td-flex"><span>02.12.2018</span><span> 17:52:04</span>
+                                                <label class="label--checkbox ">
+                                                    <input type="checkbox" class="checkbox">
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>FreedommindSupport</td>
+                                            <td>We are updating our systems...</td>
+                                            <td class="td-flex"><span>02.12.2018</span><span> 17:52:04</span>
+                                                <label class="label--checkbox ">
+                                                    <input type="checkbox" class="checkbox">
+                                                </label>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+
+                                    <div class="flex-end-right">
+                                        <img src="./img/dells.png" alt="dells">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="time-block-acc">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 out-l">
+
+                            <div class="chas">
+                                <div class="row out-b">
+                                    <div class="col-sm-3 col-md-3 col-sm-3 col-xs-12">
+                                        <div class="my-depos">
+                                            <select id="labb">
+                                                <option>Мои депозиты 1</option>
+                                                <option>Мои депозиты 2</option>
+                                                <option>Мои депозиты 3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                <div class="flex-div">
+                                                    <span class="first-span">Invest:</span>
+                                                    <span class="second-span">$ 1437</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                <div class="flex-div">
+                                                    <span class="first-span">Period:</span>
+                                                    <span class="second-span">5 day</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                <div class="flex-div">
+                                                    <span class="first-span">Profit:</span>
+                                                    <span class="second-span">45%</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                <div class="flex-div">
+                                                    <span class="first-span">Total:</span>
+                                                    <span class="second-span">$ 1437</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                        <div style="position: relative">
+                                            <div class="clokks">
+                                                <div class="timer-group">
+                                                    <div class="timer hour">
+                                                        <div class="hand"><span></span></div>
+                                                        <div class="hand"><span></span></div>
+                                                    </div>
+                                                    <div class="timer minute">
+                                                        <div class="hand"><span></span></div>
+                                                        <div class="hand"><span></span></div>
+                                                    </div>
+                                                    <div class="timer second">
+                                                        <div class="hand"><span></span></div>
+                                                        <div class="hand"><span></span></div>
+                                                    </div>
+                                                    <div class="face">
+                                                        <p id="lazy">00:00:00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cloc-img">
+                                                <img id="srclImgPafe" src="./img/sircl/11111111.png" alt="sircl"
+                                                    class="sircl">
+                                            </div>
+                                            <div class="coomber">
+                                                <img src="./img/Clock.png" alt="Clock" class="clockc">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="row">
+                                            <div class="col-sm-12 hidden-xs">
+                                                <div class="col-sm-2">
+                                                    <img src="./img/nine.png" alt="nine" class="nine-proc" id="onnes">
+                                                    <div class="profits">1 day profit</div>
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                                id="twones">
+                                                            <div class="profits">2 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                                id="trines">
+                                                            <div class="profits">3 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                                id="fones">
+                                                            <div class="profits">4 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                                id="fivnes">
+                                                            <div class="profits">5 day profit</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                                                <ul class="container flex-ball">
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                            id="onnesm">
+                                                        <div class="profits1">1 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                            id="twonesm">
+                                                        <div class="profits1">2 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                            id="trinesm">
+                                                        <div class="profits1">3 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                            id="fonesm">
+                                                        <div class="profits1">4 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                            id="fivnesm">
+                                                        <div class="profits1">5 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                            id="sixnesm">
+                                                        <div class="profits1">6 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                            id="sevnesm">
+                                                        <div class="profits1">7 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                            id="ninnesm">
+                                                        <div class="profits1">8 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                        <div class="profits1">9 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                        <div class="profits1">10 day profit</div>
+                                                    </li>
+
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                        <div class="profits1">11 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                        <div class="profits1">12 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                        <div class="profits1">13 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                        <div class="profits1">14 day profit</div>
+                                                    </li>
+                                                    <li class="item flex-item">
+                                                        <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                        <div class="profits1">15 day profit</div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 hidden-xs">
+                                                <div class="col-sm-2">
+                                                    <img src="./img/nine.png" alt="nine" class="nine-proc" id="sixnes">
+                                                    <div class="profits">6 day profit</div>
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                                id="sevnes">
+                                                            <div class="profits">7 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc"
+                                                                id="ninnes">
+                                                            <div class="profits">8 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                            <div class="profits">9 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                            <div class="profits">10 day profit</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 hidden-xs">
+                                                <div class="col-sm-2">
+                                                    <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                    <div class="profits">11 day profit</div>
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                            <div class="profits">12 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                            <div class="profits">13 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                            <div class="profits">14 day profit</div>
+                                                        </div>
+                                                        <div class="col-sm-3">
+                                                            <img src="./img/nine.png" alt="nine" class="nine-proc">
+                                                            <div class="profits">15 day profit</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 outtl-l">
+                            <label class="label--checkbox ">
+                                <span class="mst">Инвестировать с баланса</span>
+                                <input type="checkbox" class="checkbox">
+                            </label>
+                            <label class="label--checkbox ">
+                                <span class="mst">Инвестировать с плат. системы</span>
+                                <input type="checkbox" class="checkbox">
+                            </label>
+                            <div class="flex-div">
+                                <div class="btn-inwests">ИНВЕСТИРОВАТЬ</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                        <div class="flex-div">
+                            <a href="#1"> <img src="./img/aple.png" alt="aple" class="img-footer-center"></a>
+                            <a href="#2"><img src="./img/google.png" alt="google" class="img-footer-center"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="left-text-footer">
+                            Terms&Conditions
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                        <div class="flex-div">
+                            <a href="#1"> <img src="./img/aple.png" alt="aple" class="img-footer-center"></a>
+                            <a href="#2"><img src="./img/google.png" alt="google" class="img-footer-center"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="right-text-footer">
+                            Freedommind. All rights reserved 2018
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/js.js"></script>
+    <script src="./js/hourglass.js"></script>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        $('.btn-tab').click(function () {
+            $('.btn-tab').removeClass('activer');
+            $(this).addClass('activer');
+        });
+
+        $(document).ready(function () {
+            let a = window.location.hash;
+            if (a == "#Deposito") {
+                $(".btn-tab.deposito").click();
+            }
+            if (a == "#Transact") {
+                $(".btn-tab.transact").click();
+            }
+            if (a == "#Rekviz") {
+                $(".btn-tab.rekviz").click();
+            }
+            if (a == "#Mass") {
+                $(".btn-tab.mass").click();
+            }
+        });
+    </script>
+</body>
+
+</html>
